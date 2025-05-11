@@ -50,9 +50,13 @@ nav.bg-custom {
 
 .contact-block {
   background-color: #003366;
-  color: #000000; /* Change text color to black */
+  color: #000000 !important; /* Force black text */
   padding: 30px;
   text-align: center;
+}
+
+.contact-block p {
+  color: #000000 !important; /* Ensure text inside contact-block is black */
 }
 
 .showcase .card {
