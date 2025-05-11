@@ -1,11 +1,14 @@
+/* General Image Style */
 img {
   max-width: 100%;
 }
 
+/* Section Marketing Styling */
 section.marketing {
   padding-bottom: 60px;
 }
 
+/* Navbar Customization */
 nav.bg-custom {
   background-color: #4b2e83; /* Attractive purple */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -16,9 +19,10 @@ nav.bg-custom {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
+  color: #000000; /* Dark text for navbar links */
 }
 
+/* Marketing Card Styling */
 .marketing .card {
   box-shadow: 0 0 55px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
@@ -30,6 +34,7 @@ nav.bg-custom {
   transform: translateY(-5px);
 }
 
+/* Client Logos Styling */
 .client-logos {
   list-style: none;
   padding: 0;
@@ -48,6 +53,7 @@ nav.bg-custom {
   border: 1px solid #eaeaea;
 }
 
+/* Contact Block Styling */
 .contact-block {
   background-color: #003366;
   color: #000000 !important; /* Force black text */
@@ -60,17 +66,18 @@ nav.bg-custom {
 }
 
 .contact-block h5 {
-  color: #ffffff; /* Make headings white */
+  color: #4b2e83; /* Make headings purple */
 }
 
 .contact-block a {
-  color: #ffffff; /* Make links white */
+  color: #4b2e83; /* Make links purple */
 }
 
 .contact-block a:hover {
-  color: #4b2e83; /* Attractive purple on hover */
+  color: #003366; /* Dark blue on hover */
 }
 
+/* Showcase Card Styling */
 .showcase .card {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
@@ -88,10 +95,11 @@ nav.bg-custom {
   color: #4b2e83;
 }
 
+/* Footer Styling */
 footer {
   padding: 10px 0;
   background-color: #003366;
-  color: #ffffff;
+  color: #000000; /* Dark text for footer */
   text-align: center;
 }
 
@@ -99,13 +107,15 @@ footer p {
   margin: 0;
 }
 
+/* Jumbotron Styling */
 .jumbotron {
   background: linear-gradient(to right, #4b2e83, #6a1b9a);
   border-radius: 0;
-  color: #ffffff;
+  color: #000000; /* Dark text for jumbotron */
   padding: 60px 20px;
 }
 
+/* Media Queries for Responsive Design */
 @media (min-width: 768px) {
   section.marketing {
     margin-top: -50px;
