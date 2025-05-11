@@ -1,95 +1,150 @@
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
+
 section.marketing {
-padding-bottom: 60px;
+  padding-bottom: 60px;
 }
+
 nav.bg-custom {
-background-color: #ffcb05;
-box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+  background-color: #4b2e83; /* Attractive purple */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-brand img {
-max-width: 250px;
+  max-width: 250px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-color: #0d0e3c;
+  color: #ffffff;
 }
+
 .marketing .card {
-box-shadow: 0px 0px 55px rgb(0 0 0 / 10%);
-margin-bottom: 15px;
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
-.client-logos{
-list-style: none;
-padding:0;
-margin: 0;
+
+.marketing .card:hover {
+  transform: translateY(-5px);
 }
+
+.client-logos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .client-logos li {
-display: inline-block;
-width: 25%;
-margin-right: -5px;
-padding: 10px;
+  display: inline-block;
+  width: 25%;
+  margin-right: -5px;
+  padding: 10px;
 }
+
 .client-logos li img {
-display: block;
-border: 1px solid #f7f7f7;
+  display: block;
+  border: 1px solid #eaeaea;
 }
+
 .contact-block {
-background-color: #0d0e3c;
+  background-color: #003366;
+  color: #000000 !important; /* Force black text */
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-block p {
+  color: #000000 !important; /* Ensure text inside contact-block is black */
+}
+
+.contact-block h5 {
+  color: #ffffff; /* Make headings white */
+}
+
+.contact-block a {
+  color: #ffffff; /* Make links white */
+}
+
+.contact-block a:hover {
+  color: #4b2e83; /* Attractive purple on hover */
 }
 
 .showcase .card {
-box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
-transition: all 0.3s ease-in-out;
-margin-bottom: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
-.showcase .card\:hover {
-box-shadow: 0px 0px 50px rgb(0 0 0 / 10%);
-transform: scale(1.05);
+.showcase .card:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
+
 .showcase h3.card-title {
-font-size: 20px;
+  font-size: 20px;
+  color: #4b2e83;
 }
+
 footer {
-padding: 0px 0 10px;
-background-color: #0d0e3c;
+  padding: 10px 0;
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
 }
-footer p{
-margin: 0;
+
+footer p {
+  margin: 0;
 }
+
 .jumbotron {
-background-color: #0d0e3c;
-border-radius: 0;
+  background: linear-gradient(to right, #4b2e83, #6a1b9a);
+  border-radius: 0;
+  color: #ffffff;
+  padding: 60px 20px;
 }
+
 @media (min-width: 768px) {
-section.marketing {
-margin-top: -50px;
+  section.marketing {
+    margin-top: -50px;
+  }
+
+  body.inner-page {
+    padding-top: 70px;
+  }
+
+  .navbar .container,
+  .jumbotron .container {
+    max-width: 1270px;
+    width: 90%;
+  }
+
+  nav.bg-custom {
+    height: 70px;
+  }
+
+  ul.navbar-nav li.nav-item {
+    margin-left: 15px;
+  }
 }
-body.inner-page {
-padding-top: 70px;
-}
-.navbar .container, .jumbotron .container {
-max-width: 1270px;
-width: 90%;
-}
-nav.bg-custom {
-height: 70px;
-}
-ul.navbar-nav li.nav-item {
-margin-left: 15px;
-}
-}
+
 @media (max-width: 767px) {
-body {
-padding-top: 55px;
+  body {
+    padding-top: 55px;
+  }
+
+  section.marketing {
+    padding-top: 30px;
+  }
+
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  .display-3,
+  .display-4 {
+    font-size: 40px;
+  }
 }
-section.marketing {
-padding-top: 30px;
-}
-.navbar-brand img {
-max-width: 200px;
-}
-.display-3, .display-4 {
-font-size: 40px;
-}
-} make something attractive color
