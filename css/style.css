@@ -50,7 +50,7 @@ nav.bg-custom {
 
 .contact-block {
   background-color: #003366;
-  color: #ffffff;
+  color: #000000; /* Change text color to black */
   padding: 30px;
   text-align: center;
 }
