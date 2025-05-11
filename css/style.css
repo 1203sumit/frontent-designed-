@@ -7,7 +7,7 @@ section.marketing {
 }
 
 nav.bg-custom {
-  background-color: #4b2e83; /* deep purple */
+  background-color: #4b2e83; /* Attractive purple */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -16,15 +16,16 @@ nav.bg-custom {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff; /* white for better contrast */
+  color: #ffffff;
 }
 
 .marketing .card {
-  box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
+
 .marketing .card:hover {
   transform: translateY(-5px);
 }
@@ -48,19 +49,21 @@ nav.bg-custom {
 }
 
 .contact-block {
-  background-color: #003366; /* rich navy blue */
+  background-color: #003366;
   color: #ffffff;
+  padding: 30px;
+  text-align: center;
 }
 
 .showcase .card {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   margin-bottom: 15px;
   border-radius: 10px;
 }
 
 .showcase .card:hover {
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   transform: scale(1.05);
 }
 
@@ -70,9 +73,10 @@ nav.bg-custom {
 }
 
 footer {
-  padding: 0 0 10px;
+  padding: 10px 0;
   background-color: #003366;
-  color: #fff;
+  color: #ffffff;
+  text-align: center;
 }
 
 footer p {
@@ -80,12 +84,12 @@ footer p {
 }
 
 .jumbotron {
-  background: linear-gradient(to right, #4b2e83, #6a1b9a); /* gradient effect */
+  background: linear-gradient(to right, #4b2e83, #6a1b9a);
   border-radius: 0;
   color: #ffffff;
+  padding: 60px 20px;
 }
 
-/* Responsive Styling */
 @media (min-width: 768px) {
   section.marketing {
     margin-top: -50px;
